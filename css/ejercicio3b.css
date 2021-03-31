@@ -1,0 +1,19 @@
+a{
+    font-size: 25px;
+    font-style: normal;
+    color: rgb(88, 126, 175);
+}
+
+h1.titulo {
+    color: cornflowerblue;
+    font-size: 30px;
+    font-style: italic;
+}
+p.texto {
+    color: darkblue;
+    font-size: 15px;
+}
+span.destacado {
+    font-style: italic;
+    font-weight: bold;
+}

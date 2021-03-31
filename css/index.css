@@ -1,0 +1,18 @@
+body {
+    padding: 50px;
+    background-color: white;
+}
+
+h1 {
+    color: brown;
+}
+
+img {
+    max-width: 150px;
+}
+
+ul li a{
+    font-size: 25px;
+    font-style: normal;
+    color: rgb(88, 126, 175);
+}
