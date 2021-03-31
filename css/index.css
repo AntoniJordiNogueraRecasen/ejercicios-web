@@ -8,10 +8,10 @@ h1 {
 }
 
 img {
-    max-width: 150px;
+    max-width: 15%;
 }
 
-ul li a{
+a{
     font-size: 25px;
     font-style: normal;
     color: rgb(88, 126, 175);
