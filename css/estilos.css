@@ -1,0 +1,12 @@
+body {
+    padding: 50px;
+    background-color: rgb(243, 205, 240);
+}
+
+h1 {
+    color: brown;
+}
+
+div.header {
+    display: inline-block;
+}
