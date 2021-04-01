@@ -1,0 +1,36 @@
+div.container {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+div.container i{
+    font-size: 100px;
+    color: white;
+    line-height: 150px;
+    margin: 5px;
+}
+
+div.container i.thumbUP {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}
+
+div.container i.thumbDown {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+}
+
+div.container i.thumbFlip {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+}
+
+div.container i.thumbLeftUp {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+}

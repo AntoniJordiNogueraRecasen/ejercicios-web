@@ -3,6 +3,7 @@ body {
 }
 
 div.productos {
+    position: relative;
     cursor: default;
     display: inline-block;
     box-shadow: 5px 10px 8px #888888;
@@ -34,6 +35,14 @@ div.productos i{
     padding-left: 25px;
     padding-right: 25px;
 }
+
+div.productos i.iconTwitter {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    color: turquoise;
+}
+
 div.productos i.fa-heart{
     color: red;
 }
