@@ -1,0 +1,32 @@
+div.campo {
+    margin:auto;
+    width: 50%;
+    height: 150px;
+}
+
+div.campo div.fila {
+    width: 100%;
+}
+
+div.campo div.fila div {
+    display: inline-block;
+    background-color: grey;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    text-align: center;
+}
+
+i.fa-bomb {
+    visibility: hidden;
+    font-size: medium;
+    line-height: 50px;
+}
+
+div.campo div.fila div.mina:hover {
+    background-color: red;
+}
+
+div.campo div.fila div.mina:hover i.fa-bomb {
+    visibility: visible;
+}
