@@ -1,0 +1,39 @@
+img.bluebike {
+    padding: 5px;
+}
+
+div.cardContainer {
+    position: relative;
+}
+
+div.cardContainer i.iconTwitter {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: turquoise;
+}
+
+
+div.cardContainer p.bikedescr {
+    color: gray;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.cardContainer div.bodyContainer {
+    text-align: left;
+}
+
+div.heartContainer {
+    color: red;
+    border-right: 2px solid rgb(175, 175, 175);
+}
+
+div.commentContainer {
+    color: green;
+}
+
+i:hover {
+    cursor: pointer;
+}

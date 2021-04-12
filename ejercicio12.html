@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/ejercicio12.css">
+</head>
+<body>
+    <a href="index.html">Volver</a>
+    <form class="miformulario" 
+		action="http://jkorpela.fi/cgi-bin/echo.cgi" 
+		method="get">
+
+        <label>Nombre</label>
+        <input class="fullLenghtInput" name="nombre" type="text" placeholder="Nombre">
+        <br>
+
+        <label>Apellidos</label>
+        <input class="fullLenghtInput" name="apellidos" type="text" 
+			placeholder="Apellidos">
+        <br>
+
+        <label>Dirección</label>
+        <input class="fullLenghtInput" name="direccion" type="text" 
+			placeholder="Dirección">
+        <br>
+        
+        <label>Población</label>
+        <input name="poblacion" type="text" 
+			placeholder="Población">
+        
+        <label class="labelPostal">C.Postal</label>
+        <input name="c.postal" type="number" 
+			placeholder="C.posta">
+        <br>
+
+        <div class="formulariAlineat">
+            <input type="radio" name="rang" value="0-25"> Menys de 25 años<br>
+            <input type="radio" name="rang" value="26-40"> 26 a 40 años<br>
+            <input type="radio" name="rang" value="41-65"  checked="1"> 
+                41 a 65 años<br>
+            <input type="radio" name="rang" value="66-100"> Más de 66 años
+        </div>
+
+        <div class="formulariAlineat">
+            <label>Teléfono móbil</label>
+            <select name="telefonos">
+                <option value="No Tiene">No Tiene</option>
+                <option value="Android">Android</option>
+                <option value="iPhone">iPhone</option>
+                <option value="Otros">Otros</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label>Vehículo</label>
+            <select name="vehiculo">
+                <option value="No Tiene">No Tiene</option>
+                <option value="Bici">Bici</option>
+                <option value="Moto">Moto</option>
+                <option value="Coche">Coche</option>
+                <option value="Varios">Varios</option>
+                <option value="Otros">Otros</option>
+            </select>
+
+            <br>
+            <br>
+        </div>
+        
+        <br>
+        <br>
+
+
+        <div>
+            <button type="submit">enviar</button>
+        </div>
+
+    </form>
+</body>
+</html>

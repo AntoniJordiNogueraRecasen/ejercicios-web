@@ -1,0 +1,29 @@
+body {
+    background-color: red;
+}
+
+div {
+    margin: auto;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 150px;
+}
+
+h2.notSeen {
+    display: none;
+}
+
+@media only screen and (max-width: 799px) {
+    body {
+        background-color: green;
+    }
+    h2.notSeen {
+        display: contents;
+    }
+    h2.isSeen {
+        display: none;
+    }
+}

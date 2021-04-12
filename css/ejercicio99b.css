@@ -1,0 +1,13 @@
+div.row {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+div.bg-success {
+    margin: 10px;
+}
+
+div.bg-danger {
+    margin: 10px;
+}
+

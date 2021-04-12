@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Ejercicio 7 Bootstrap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/ejercicio7Bootstrap.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <a href="index.html">Volver</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <img src="./img/dolphin.jpg" class="img-fluid" alt="Responsive image">
+                <div>
+                    <p>Fulanito de tal y cual</p>
+                    <p>CIF/NIF: 15402650f</p>
+                    <p>Calle Paraíso, nº1</p>
+                    <p>CP: 14700 Córdoba</p>
+                    <p>Córdoba España</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <table class="table tableDetailsFactura">
+                    <tbody>
+                        <tr>
+                            <td class="columna">Número de factura:</td>
+                            <td class="columna">2017-0001</td>
+                        </tr>
+                        <tr>
+                            <td>Fecha Factura:</td>
+                            <td>22/06/2017</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="tableBorderLeftAndRight">
+                    <table class="table tableDetailsFactura">
+                        <tbody>
+                            <tr>
+                                <th class="clientHeader">Cliente:</th>
+                            </tr>
+                            <tr>
+                                <td>VicVal Sl</td>
+                            </tr>
+                            <tr>
+                                <td>CIF/NIF: B30142516</td>
+                            </tr>
+                            <tr>
+                                <td>C/Mala, nº1</td>
+                            </tr>
+                            <tr>
+                                <td>18190 Granada</td>
+                            </tr>
+                            <tr>
+                                <td>Granada, España</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <table class="table tableFactura">
+                    <thead>
+                        <tr class="headerFactura">
+                          <th>Concepto</th>
+                          <th>Cantidad Base</th>
+                          <th>Imponible</th>
+                          <th>I.V.A</th>
+                        </tr>
+                    </thead>
+                    <thbody>
+                        <tr>
+                            <td class="firstRow" width="55%">Servicio de soporte técnico y reparación de sistemas
+                                informáticos</td>
+                            <td class="firstRow">2 x 40,00€</td>
+                            <td class="firstRow">80,00€</td>
+                            <td class="firstRow">21 % (16,80€)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Total Base Imponible: </td>
+                            <td></td>
+                            <td>80,00€</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>I.V.A 21%: </td>
+                            <td></td>
+                            <td>16,80€</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Retención 15%: </td>
+                            <td></td>
+                            <td>-12,00€</td>
+                        </tr>
+                        <tr class="totalRow">
+                            <td class="firstRow"></td>
+                            <td class="firstRow">TOTAL: </td>
+                            <td class="firstRow"></td>
+                            <td class="firstRow">84,80€</td>
+                        </tr>
+                    </thbody>
+                </table>
+            </div>
+        </div>
+
+        <p class="dateParagraf">Fecha de vencimiento: 22/06/2017</p>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
